@@ -1,91 +1,71 @@
-Projeto: Controle de Orçamentos, Clientes e Obras
-Descrição
-Este projeto foi desenvolvido com o objetivo de Concluir uma ativade da faculdade UNINTER ele  cria uma plataforma web para o controle de orçamentos, clientes e obras de uma empresa. A aplicação permite o gerenciamento de dados de clientes, orçamentos e obras, proporcionando uma maneira prática e eficiente de organizar e visualizar essas informações. O sistema também oferece a funcionalidade de exportar dados para um arquivo Excel e alternar entre modo claro e escuro, proporcionando uma experiência de uso agradável e personalizada.
+# Sistema de Controle de Orçamentos, Clientes e Obras
 
-Funcionalidades
-1. Painel de Controle
-O painel de controle fornece uma visão geral das estatísticas principais:
+Aplicação web desenvolvida para gerenciamento de clientes, orçamentos e obras, com foco na organização de dados e otimização de processos operacionais.
 
-Clientes: Exibe o número total de clientes cadastrados.
+## 💡 Descrição
+O sistema permite centralizar e gerenciar informações importantes de forma prática, facilitando o controle de dados e a tomada de decisão em ambientes empresariais.
 
-Orçamentos: Exibe o número total de orçamentos cadastrados.
+## 🚀 Funcionalidades
 
-Obras: Exibe o número total de obras cadastradas.
+### 📊 Painel de Controle
+- Visualização de indicadores principais (clientes, orçamentos e obras)
+- Monitoramento rápido de dados operacionais
 
-2. Cadastro de Clientes
-Permite o cadastro de novos clientes com os seguintes campos:
+### 👤 Gestão de Clientes
+- Cadastro e listagem de clientes
+- Organização de informações para fácil consulta
 
-Nome
+### 💰 Gestão de Orçamentos
+- Registro de orçamentos com descrição e valores
+- Controle e acompanhamento de propostas
 
-Email
+### 🏗️ Gestão de Obras
+- Cadastro de obras vinculadas a clientes
+- Organização de projetos e acompanhamento de informações
 
-O formulário envia os dados e os exibe na listagem de clientes.
+### 🔍 Listagem e Controle de Dados
+- Tabelas dinâmicas com:
+  - Pesquisa em tempo real
+  - Edição de registros
+  - Exclusão de dados
 
-3. Cadastro de Orçamentos
-Permite o cadastro de novos orçamentos com:
+### 📤 Exportação de Dados
+- Exportação das informações para arquivo Excel
+- Facilita análise e armazenamento externo
 
-Descrição do orçamento
+### 🎨 Interface
+- Layout responsivo
+- Estrutura organizada e foco na usabilidade
 
-Valor do orçamento
+---
 
-O formulário envia os dados e os exibe na listagem de orçamentos.
+## 🛠️ Tecnologias Utilizadas
 
-4. Cadastro de Obras
-Permite o cadastro de novas obras associadas a um cliente:
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Bibliotecas para exportação Excel
 
-Descrição da obra
+---
 
-Nome do cliente
+## 🎯 Objetivo do Projeto
 
-O formulário envia os dados e os exibe na listagem de obras.
+Desenvolver uma solução web para organização e gestão de dados operacionais, reduzindo processos manuais e melhorando a eficiência na administração de clientes, orçamentos e obras.
 
-5. Listagem de Dados
-Todos os dados inseridos (clientes, orçamentos e obras) são exibidos em tabelas dinâmicas. As tabelas permitem:
+---
 
-Pesquisa: Cada tabela tem um campo de pesquisa para filtrar os registros.
+## ▶️ Como Executar
 
-Ações: Possibilidade de editar ou excluir registros diretamente na tabela.
+1. Clone o repositório
+2. Abra o arquivo `index.html` no navegador
+3. Utilize a aplicação diretamente pela interface
 
-6. Modo Escuro (Não esta funcionando)
-A plataforma inclui um botão para alternar entre o modo claro e escuro, proporcionando uma experiência visual mais confortável para o usuário.
+---
 
-7. Exportação para Excel
-A aplicação oferece a opção de exportar todos os dados cadastrados para um arquivo Excel, facilitando o armazenamento e a análise offline.
+## 📌 Possíveis Melhorias
 
-Estrutura do Código
-O código HTML do projeto inclui:
-
-Cabeçalho: Contém o título da página e links para a inclusão do Bootstrap e o arquivo CSS personalizado.
-
-Corpo: Contém as seções para o painel de controle, formulários de cadastro e listagem de dados.
-
-JavaScript: O script externo scripts.js contém a lógica para interatividade, como a manipulação do modo escuro, exportação para Excel, e a adição e remoção de itens das listas.
-
-Tecnologias Utilizadas
-HTML: Para estruturar o conteúdo da página.
-
-CSS: Para estilizar a página e aplicar o design visual, incluindo o modo escuro.
-
-Bootstrap: Para facilitar o design responsivo e melhorar a aparência geral dos componentes da interface.
-
-JavaScript: Para adicionar interatividade, como a manipulação de formulários, alternância do modo escuro e exportação para Excel.
-
-Excel Export: Utilizando bibliotecas JavaScript para exportar os dados para um arquivo Excel.
-
-Objetivo
-O objetivo deste projeto é fornecer uma solução simples e eficaz para gerenciar informações sobre clientes, orçamentos e obras, utilizando tecnologias web modernas. Ele visa atender empresas de pequeno a médio porte que buscam uma ferramenta acessível e de fácil uso para organizar seus processos internos.
-
-Como Executar
-Para executar o projeto, siga os seguintes passos:
-
-Baixe ou clone o repositório.
-
-Abra o arquivo index.html em um navegador de sua preferência.
-
-Utilize as funcionalidades de cadastro, pesquisa, e exportação diretamente pela interface.
-
-Conclusão
-Este projeto demonstra o uso prático de HTML, CSS, JavaScript e Bootstrap para criar uma plataforma funcional de gerenciamento de dados. A solução desenvolvida oferece uma interface intuitiva e recursos importantes, como a alternância de modo escuro e a exportação de dados, que agregam valor ao gerenciamento de orçamentos, clientes e obras.
-
-
-
+- Integração com banco de dados
+- Autenticação de usuários
+- Dashboard com gráficos analíticos
+- API para integração com outros sistemas
